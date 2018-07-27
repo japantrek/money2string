@@ -1,0 +1,30 @@
+{
+	"name" : "nvbooster/money2string",
+	"description" : "Converting rubles to string reoresentation",
+	"type" : "library",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "nvb",
+			"email" : "nvb@aproxima.ru"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"nvbooster\\Money2String\\" : "src/"
+		}
+	},
+	"require" : {
+		"php" : ">=5.5",
+		"ext-mbstring" : "*"
+	},
+	"suggest" : {
+		"symfony/twig-bundle" : "For loading twig extensions",
+		"twig/twig" : "For using twig extensions - ^1.23.0||~2.0"
+	},
+	"minimum-stability" : "stable",
+	"extra" : {
+		"branch-alias" : {
+			"dev-trunk" : "1.x-dev"
+		}
+	}
+}
