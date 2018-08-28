@@ -18,8 +18,7 @@
 		"ext-mbstring" : "*"
 	},
 	"suggest" : {
-		"symfony/twig-bundle" : "For loading twig extensions",
-		"twig/twig" : "For using twig extensions - ^1.23.0||~2.0"
+		"twig/twig" : "For using twig extensions - ~2.0"
 	},
 	"minimum-stability" : "stable",
 	"extra" : {
